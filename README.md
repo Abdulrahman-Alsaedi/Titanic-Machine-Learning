@@ -32,7 +32,7 @@ After loading the data, we will review it using the `head` command to ensure it 
   ```
 
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/44a47a61-b1b6-42fc-824b-82a14938b2c0">
+  <img src="https://github.com/user-attachments/assets/9620ef52-ad5e-4c27-9ca1-702a8056d605">
 </p>
 
   ## Data Preprocessing
