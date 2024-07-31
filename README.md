@@ -42,13 +42,13 @@ After loading the data, we will review it using the `head` command to ensure it 
   data.info()
   ```
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/39ceaa45-1a8a-423a-a80d-0ddc5a49a329">
+  <img src="https://github.com/user-attachments/assets/78fb8c65-278a-4999-833e-4630394581da">
 </p>
 
   ## Dealing with Missing Data
 
   ```python
-  # to view the Missing valuse in each column:
+  # to view the Missing values in each column:
 
   data.isnull().sum()
   ```
