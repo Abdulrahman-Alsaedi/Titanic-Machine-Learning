@@ -30,7 +30,10 @@ After loading the data, we will review it using the `head` command to ensure it 
 
   data.head()
   ```
-  ![first 5 rows](https://github.com/user-attachments/assets/8f5ce84b-c9cd-4f4c-b59b-e0fc9a2cc252)
+
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/44a47a61-b1b6-42fc-824b-82a14938b2c0">
+</p>
 
   ## Data Preprocessing
   Next, we will use the `info` command to learn more about the data, including the number of rows and columns, data types, and the number of missing values.
