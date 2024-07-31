@@ -42,7 +42,7 @@ After loading the data, we will review it using the `head` command to ensure it 
   data.info()
   ```
   <p align="center">
-  <img src="https://github.com/user-attachments/assets/78fb8c65-278a-4999-833e-4630394581da">
+  <img src="https://github.com/user-attachments/assets/732e2560-587e-4734-be19-6f5c039cee22">
 </p>
 
   ## Dealing with Missing Data
@@ -53,7 +53,7 @@ After loading the data, we will review it using the `head` command to ensure it 
   data.isnull().sum()
   ```
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/99b9821f-ad3d-4f3f-bd17-df3dc1498f6b">
+    <img src="https://github.com/user-attachments/assets/326a517c-1221-4e8d-9e1a-0d3882b36109">
   </p>
 
   You have three options to address this:
@@ -79,7 +79,7 @@ There are three columns with missing values: Age, Cabin, and Embarked. For the A
   ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/7c079533-089c-4301-ad9d-db1ed2e9090d">
+    <img src="https://github.com/user-attachments/assets/90ae004b-c72f-4a9e-878e-c2b0192c5f23">
   </p>
   
   In the Embarked column, there are only two missing values. Let’s check the categories in this column.
@@ -89,7 +89,7 @@ data['Embarked'].value_counts()
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/31da1a67-5a4e-4fde-afb3-bf5153b8e93a">
+    <img src="https://github.com/user-attachments/assets/6555e06c-2191-4808-9698-3d92877a2e25">
   </p>
   
   ```python
@@ -110,7 +110,7 @@ data.head()
 ```
 
   <p align="center">
-      <img src="https://github.com/user-attachments/assets/b6ae3c83-83f8-4f60-9200-8a1b68865c0b">
+      <img src="https://github.com/user-attachments/assets/e194ad29-f8cf-4df1-bf2f-80401e654d20">
     </p>
   
   ## Encode Categorical Columns
@@ -125,7 +125,7 @@ data.head()
   ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/75480f3e-752f-41b0-b566-0aede8b59098">
+    <img src="https://github.com/user-attachments/assets/08470892-204f-4e4d-942b-961d256a6f85">
   </p>
 
   ## Dealing with Duplicates
@@ -151,7 +151,7 @@ data.head()
   ```
 
   <p align="center">
-      <img src="https://github.com/user-attachments/assets/6e8a256f-370c-46a9-ac51-3a2baf200742">
+      <img src="https://github.com/user-attachments/assets/9948ae30-1ec1-4db6-b225-82eb4b4927ad">
     </p>
   
   ## Look for Correlations
@@ -167,7 +167,7 @@ data.head()
   ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/a0814017-1487-4276-ad31-3b88d47fda8c">
+    <img src="https://github.com/user-attachments/assets/8cb32371-b8e8-4474-b8e3-e773b95d0f7c">
   </p>
   
   The correlation values provide insights into how different features relate to the survival outcome in the Titanic dataset:
@@ -189,7 +189,7 @@ data.head()
   ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/a560ccf8-20c5-426b-baac-ac3cb748058f">
+    <img src="https://github.com/user-attachments/assets/a508ed81-703b-40db-8130-ec904600ee68">
   </p>
 
   ```python
@@ -199,7 +199,7 @@ data.head()
   ```
 
   <p align="center">
-      <img src="https://github.com/user-attachments/assets/4ab6ed09-025e-404c-a626-b9aa9c470256">
+      <img src="https://github.com/user-attachments/assets/bb40121f-0662-4ca6-87e3-3c029901a107">
     </p>
   
   ```python
@@ -209,7 +209,7 @@ data.head()
   ```
 
   <p align="center">
-      <img src="https://github.com/user-attachments/assets/b126c28c-955c-4703-b3b3-ab30aa90101e">
+      <img src="https://github.com/user-attachments/assets/01918199-f52e-4a88-ad04-b8336319a174">
     </p>
 
 ```python
@@ -219,7 +219,7 @@ sns.countplot(x='Sex', hue='Survived', data=data)
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/4719e1e8-ce4e-46ee-a9f3-85dbd6883637">
+    <img src="https://github.com/user-attachments/assets/00b5cad6-9b9c-4956-85ce-09f21a23153c">
   </p>
 
   As we can see, even though there are more males in our dataset, the number of females who survived is higher. This is one of the very important insights we can get from this data.
@@ -230,6 +230,11 @@ sns.countplot(x='Sex', hue='Survived', data=data)
 
 sns.countplot(x='Pclass', hue='Survived', data=data)
 ```
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/81329114-9e93-49a3-8fa2-8f9a0de123de">
+  </p>
+  
   You can do the same for the other columns to get more insights about the dataset.
 
 ## Model Building
@@ -268,7 +273,7 @@ y = data['Survived']
   ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/2068786b-b657-42f4-8536-bd78888fbd0d">
+    <img src="https://github.com/user-attachments/assets/0b97af7e-6142-42af-9aba-023366ce694f">
   </p>
   
   ## Model Evaluation
